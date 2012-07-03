@@ -246,7 +246,7 @@ describe 'main application' do
       it 'should be 422' do
         VCR.use_cassette('invalid-attributes') do
           post '/1349/277', params
-          last_response.status.should == 422
+          last_response.status.should == 500
         end
       end      
     end
