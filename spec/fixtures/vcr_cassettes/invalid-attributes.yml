@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://QQkKOPqwOoBji2Q7kQiV57szLhISAEjVKqMkW4rCAaeRhFEpogLtubgyzJjB:X@app.cobregratis.com.br/bank_billets.xml
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bank-billet>\n  <address>Av.
+        Pres. Vargas</address>\n  <amount type=\"float\">34.8</amount>\n  <bank-billet-account-id>277</bank-billet-account-id>\n
+        \ <city>Rio de Janeiro</city>\n  <email>\n    <address>contato@rafael.adm.br</address>\n
+        \   <name>Rafael</name>\n  </email>\n  <expire-at type=\"date\">2012-07-31</expire-at>\n
+        \ <name>Rafael</name>\n  <service-id>1349</service-id>\n  <state>RJ</state>\n
+        \ <zipcode>20071-004</zipcode>\n</bank-billet>\n"
+    headers:
+      authorization:
+      - Basic UVFrS09QcXdPb0JqaTJRN2tRaVY1N3N6TGhJU0FFalZLcU1rVzRyQ0FhZVJoRkVwb2dMdHViZ3l6SmpCOlg=
+      content-type:
+      - application/xml
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+      connection:
+      - close
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      server:
+      - nginx
+      date:
+      - Tue, 03 Jul 2012 02:07:31 GMT
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      www-authenticate:
+      - Basic realm="CobreGratis"
+      x-ua-compatible:
+      - IE=Edge,chrome=1
+      x-runtime:
+      - '0.115110'
+      set-cookie:
+      - _cobregratis-app_session=BAh7BiIPc2Vzc2lvbl9pZCIlMmNlNzU1NDM3ZjhjMWEwMjM5YjdkNWE1NTI3YTgzNzc%3D--0d105ddc6944507be03d159b912c33f5600eea5d;
+        path=/; HttpOnly
+      cache-control:
+      - no-cache
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<hash>\n  <error>Email
+        ou senha inv&#225;lidos.</error>\n</hash>\n"
+    http_version: '1.1'
+  recorded_at: Tue, 03 Jul 2012 02:07:32 GMT
+recorded_with: VCR 2.2.2

@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://qMkW4rCAaeRhFEpogLtQQkKOPqwOoBji2Q7kLhISAEjVKubgyzJjBQiV57sz:X@app.cobregratis.com.br/bank_billets.xml
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bank-billet>\n  <address>Av.
+        Pres. Vargas</address>\n  <amount type=\"float\">34.8</amount>\n  <bank-billet-account-id>277</bank-billet-account-id>\n
+        \ <city>Rio de Janeiro</city>\n  <email>\n    <address>contato@rafael.adm.br</address>\n
+        \   <name>Rafael</name>\n  </email>\n  <expire-at type=\"date\">2012-07-31</expire-at>\n
+        \ <name>Rafael</name>\n  <service-id>1349</service-id>\n  <state>RJ</state>\n
+        \ <zipcode>20071-004</zipcode>\n</bank-billet>\n"
+    headers:
+      authorization:
+      - Basic cU1rVzRyQ0FhZVJoRkVwb2dMdFFRa0tPUHF3T29CamkyUTdrTGhJU0FFalZLdWJneXpKakJRaVY1N3N6Olg=
+      content-type:
+      - application/xml
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+      connection:
+      - close
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      server:
+      - nginx
+      date:
+      - Tue, 03 Jul 2012 02:02:25 GMT
+      content-type:
+      - application/xml; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      x-ua-compatible:
+      - IE=Edge,chrome=1
+      location:
+      - https://app.cobregratis.com.br/bank_billets/51551
+      x-runtime:
+      - '1.591601'
+      set-cookie:
+      - _cobregratis-app_session=BAhDOhxEZXZpc2U6OkluZGlmZmVyZW50SGFzaHsHIg9zZXNzaW9uX2lkIiVlZmQ4MzQzZmJhMThhOGE1YzhjOWQ4M2JiNzgxMDFhZSIZd2FyZGVuLnVzZXIudXNlci5rZXlbCCIJVXNlclsGaQLxMiIZR0huV3p6NW5pWnE4MWE3ck9ueVg%3D--a68adaf527d6231c815d8d2d1e682cb4cc34e215;
+        path=/; HttpOnly
+      cache-control:
+      - no-cache
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bank-billet>\n  <address>Av.
+        Pres. Vargas</address>\n  <city>Rio de Janeiro</city>\n  <cnpj-cpf nil=\"true\"></cnpj-cpf>\n
+        \ <created-by-api type=\"boolean\">true</created-by-api>\n  <kind>normal</kind>\n
+        \ <name>Rafael</name>\n  <parcel type=\"integer\">1</parcel>\n  <created-at
+        type=\"datetime\">2012-07-02T23:02:23-03:00</created-at>\n  <notify-overdue
+        type=\"boolean\">false</notify-overdue>\n  <subdivision-parent-id type=\"integer\"
+        nil=\"true\"></subdivision-parent-id>\n  <comments nil=\"true\"></comments>\n
+        \ <guarantor nil=\"true\"></guarantor>\n  <line nil=\"true\"></line>\n  <paid-amount
+        type=\"float\" nil=\"true\"></paid-amount>\n  <percent-fines type=\"decimal\"
+        nil=\"true\"></percent-fines>\n  <quantity nil=\"true\"></quantity>\n  <acceptance>N</acceptance>\n
+        \ <deleted-at type=\"datetime\" nil=\"true\"></deleted-at>\n  <email-state
+        type=\"integer\" nil=\"true\"></email-state>\n  <generated-at type=\"datetime\"
+        nil=\"true\"></generated-at>\n  <our-number-prefix nil=\"true\"></our-number-prefix>\n
+        \ <pdf-created-at type=\"datetime\" nil=\"true\"></pdf-created-at>\n  <updated-at
+        type=\"datetime\">2012-07-02T23:02:23-03:00</updated-at>\n  <zipcode>20071-004</zipcode>\n
+        \ <account-id type=\"integer\">1</account-id>\n  <amount type=\"float\">34.8</amount>\n
+        \ <discount-amount type=\"decimal\" nil=\"true\"></discount-amount>\n  <document-number
+        nil=\"true\"></document-number>\n  <processed-our-number nil=\"true\"></processed-our-number>\n
+        \ <decimal-character>,</decimal-character>\n  <email-sent-at type=\"datetime\"
+        nil=\"true\"></email-sent-at>\n  <html-state type=\"integer\">0</html-state>\n
+        \ <id type=\"integer\">51551</id>\n  <meta type=\"binary\" nil=\"true\" encoding=\"base64\"></meta>\n
+        \ <percent-interest-day type=\"decimal\" nil=\"true\"></percent-interest-day>\n
+        \ <service-id type=\"integer\">1349</service-id>\n  <assignor-code nil=\"true\"></assignor-code>\n
+        \ <homologation type=\"boolean\">false</homologation>\n  <html-delayed-at
+        type=\"datetime\">2012-07-02T23:02:25-03:00</html-delayed-at>\n  <our-number>0000005001323</our-number>\n
+        \ <pdf-state type=\"integer\" nil=\"true\"></pdf-state>\n  <document-date
+        type=\"date\" nil=\"true\"></document-date>\n  <due-date-business-day nil=\"true\"></due-date-business-day>\n
+        \ <neighborhood nil=\"true\"></neighborhood>\n  <currency>R$</currency>\n
+        \ <customer-id type=\"integer\" nil=\"true\"></customer-id>\n  <description
+        nil=\"true\"></description>\n  <document-amount type=\"decimal\" nil=\"true\"></document-amount>\n
+        \ <document-type nil=\"true\"></document-type>\n  <paid-at type=\"date\" nil=\"true\"></paid-at>\n
+        \ <instructions nil=\"true\"></instructions>\n  <overdue-notified-at type=\"datetime\"
+        nil=\"true\"></overdue-notified-at>\n  <pdf-delayed-at type=\"datetime\" nil=\"true\"></pdf-delayed-at>\n
+        \ <status>d</status>\n  <bank-billet-account-id type=\"integer\">277</bank-billet-account-id>\n
+        \ <email-delayed-at type=\"datetime\" nil=\"true\"></email-delayed-at>\n  <expire-at
+        type=\"date\">2012-07-31</expire-at>\n  <html-created-at type=\"datetime\"
+        nil=\"true\"></html-created-at>\n  <other-amount-to-add type=\"decimal\" nil=\"true\"></other-amount-to-add>\n
+        \ <state>RJ</state>\n  <thousand-character>.</thousand-character>\n  <external-link>http://bole.to/86em13rz</external-link>\n
+        \ <hashcode>86em13rz</hashcode>\n</bank-billet>\n"
+    http_version: '1.1'
+  recorded_at: Tue, 03 Jul 2012 02:02:25 GMT
+recorded_with: VCR 2.2.2
