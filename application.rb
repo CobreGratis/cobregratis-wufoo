@@ -5,8 +5,12 @@ require 'sinatra'
 require 'cobregratis'
 require './lib/parser'
 
+configure do
+  set :views, '.'
+end
+
 get '/' do
-  "nothing here"
+  markdown :README, :layout_engine => :haml
 end
 
 post '/:service_id/:bank_billet_account_id' do

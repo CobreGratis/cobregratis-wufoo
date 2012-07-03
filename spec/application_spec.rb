@@ -13,6 +13,10 @@ describe 'main application' do
       get '/'
       last_response.should be_ok
     end
+    it "should have content" do
+      get '/'
+      last_response.body.should =~ /middleware/
+    end
   end
 
   describe "POST /" do

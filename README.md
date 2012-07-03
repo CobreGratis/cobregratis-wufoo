@@ -1,4 +1,4 @@
-Integração do Cobre Grátis com o Wufoo.
+Integração Cobre Grátis x Wufoo.
 =================
 
 Esse é o código usado no middleware de integração do Cobre Grátis com o Wufoo para quem deseja ter um formulário em seu site em que o próprio cliente possa gerar o seu boleto bancário.
@@ -14,27 +14,27 @@ Para usufruir da integração, não é necessário usar este código de programa
 
 Em resumo, é necessário criar um formulário no Wufoo com os campos:
 
-> Campo: **Data de Vencimento**<br>
+Campo: **Data de Vencimento**<br>
 Field Type: **Date**<br>
 Required: **true**<br>
 CSS Layout Keywords: **expire_at**
 
-> Campo: **Valor**<br>
+Campo: **Valor**<br>
 Field Type: **Single Line Text**<br>
 Formato: **99,99**<br>
 Required: **true**<br>
 CSS Layout Keywords: **amount**<br>
 
-> Campo: **Nome do Sacado**<br>
+Campo: **Nome do Sacado**<br>
 Field Type: **Single Line Text**<br>
 Required: **true**<br>
 CSS Layout Keywords: **name**<br>
 
-> Campo: **E-mail**<br>
+Campo: **E-mail**<br>
 Field Type: **Email**<br>
 CSS Layout Keywords: **email**<br>
 
-> Campo: **Endereço**<br>
+Campo: **Endereço**<br>
 Field Type: **Address**<br>
 CSS Layout Keywords: **address**<br>
 
