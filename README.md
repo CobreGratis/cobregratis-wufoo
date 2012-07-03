@@ -41,7 +41,7 @@ Após criar o formulário, é necessário cadastrar uma Notificação:
 * Acesse o Notification Settings do formulário criado;
 * Selecione **WebHook** na área de inclusão de nova notificação;
 * Clique em Add Integration;
-* Em _Your WebHook URL_ coloque o endereço: **http://cobregratis-wufoo.herokuapp.com/IDSERVICO/IDCONTA** onde IDSERVICO é o ID do Serviço e o IDCONTA é o ID da Conta do Cobre Grátis;<br>
+* Em _Your WebHook URL_ coloque o endereço: **https://cobregratis-wufoo.herokuapp.com/IDSERVICO/IDCONTA** onde IDSERVICO é o ID do Serviço e o IDCONTA é o ID da Conta do Cobre Grátis;<br>
 Para pegar o ID do Serviço e o ID da Conta, acesse a [página Integração do Cobre Grátis] [integration]
 * Em _Your WebHook Handshake Key_ coloque o Token de Autenticação do seu usuário no Cobre Grátis;<br>
 Para pegar o Token de Autenticação do seu usuário, acesse a [página Meu Perfil do Cobre Grátis] [myinfo]
