@@ -5,7 +5,7 @@ class Parser
   end
 
   def bank_billet_attributes
-    @params["FieldStructure"]["Fields"].each do |field|
+    JSON.parse(@params["FieldStructure"])["Fields"].each do |field|
       [:amount, :expire_at].each do |key|
         @attributes[key] = parse(@params[field["ID"]], key) if field["ClassNames"].match(key.to_s)
       end
