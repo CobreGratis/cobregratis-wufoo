@@ -35,7 +35,7 @@ class Parser
   def parse(value, type)
     case type
     when :amount
-      value.to_f/100
+      value.gsub(".","").gsub(",",".").to_f
     when :expire_at
       Date.strptime(value, '%Y%m%d')
     else
