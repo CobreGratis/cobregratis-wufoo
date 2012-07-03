@@ -6,6 +6,8 @@ Esse é o código usado no middleware de integração do Cobre Grátis com o Wuf
 O [Cobre Grátis] [cg] é um sistema de emissão e gerenciamento de boletos bancários.
 O [Wufoo] [wufoo] é um sistema de criação de formulários.
 
+É necessário ter contratado o Plano Premium do [Cobre Grátis] [cg].
+
 Para usufruir da integração, não é necessário usar este código de programação. Basta usar o serviço hospedado.
 
 [Vídeo explicativo de como configurar a integração] [video]
