@@ -4,6 +4,7 @@ gem 'sinatra', '1.3.2'
 gem 'cobregratis', '0.3.0'
 gem 'maruku', '0.6.0'
 gem 'haml', '3.1.6'
+gem 'rack-canonical-host', '0.0.8'
 
 group :development do
 	gem 'thin', '1.3.1'
