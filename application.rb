@@ -3,6 +3,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
 require 'cobregratis'
+require 'haml'
 require './lib/parser'
 
 configure do
