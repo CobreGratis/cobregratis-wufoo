@@ -1,4 +1,4 @@
-require 'application'
+require './application'
 
-use Rack::CanonicalHost, 'wufoo.cobregratis.com.br'
+use Rack::CanonicalHost, ENV['CANONICAL_HOST'] if ENV['CANONICAL_HOST']
 run Sinatra::Application
