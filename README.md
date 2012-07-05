@@ -10,8 +10,6 @@ O [Wufoo] [wufoo] é um sistema de criação de formulários.
 
 Para usufruir da integração, não é necessário usar este código de programação. Basta usar o serviço hospedado.
 
-[Vídeo explicativo de como configurar a integração] [video]
-
 Em resumo, é necessário criar um formulário no Wufoo com os campos:
 
 Campo: **Data de Vencimento**<br>
@@ -55,7 +53,6 @@ Para pegar o Token de Autenticação do seu usuário, acesse a [página Meu Perf
 
   [cg]: http://cobregratis.com.br
   [wufoo]: http://wufoo.com
-  [video]: http://screencast.com/t/qdbGoccFEQj
   [integration]: https://app.cobregratis.com.br/integration
   [myinfo]: https://app.cobregratis.com.br/myinfo
   [support]: http://suporte.cobregratis.com.br
