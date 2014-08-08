@@ -11,11 +11,11 @@ describe 'main application' do
   describe "GET /" do
     it 'should be ok' do
       get '/'
-      last_response.should be_ok
+      expect(last_response).to be_ok
     end
     it "should have content" do
       get '/'
-      last_response.body.should =~ /middleware/
+      expect(last_response.body).to match(/middleware/)
     end
   end
 
@@ -45,7 +45,7 @@ describe 'main application' do
       it 'should be ok' do
         VCR.use_cassette('valid-attributes') do
           post '/1349/277', params
-          last_response.should be_ok
+          expect(last_response).to be_ok
         end
       end      
     end
@@ -74,7 +74,7 @@ describe 'main application' do
       it 'should be 422' do
         VCR.use_cassette('invalid-attributes') do
           post '/1349/277', params
-          last_response.status.should == 500
+          expect(last_response.status).to eq(500)
         end
       end      
     end

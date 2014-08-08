@@ -26,7 +26,7 @@ describe Parser do
   let(:parser) { Parser.new(params) }
   describe :bank_billet_attributes do
     it {
-      parser.bank_billet_attributes.should == {
+      expect(parser.bank_billet_attributes).to eq({
         amount: 1234.80,
         expire_at: Date.parse('2012-07-31'),
         name: "Rafael",
@@ -38,10 +38,10 @@ describe Parser do
           name: "Rafael",
           address: "contato@rafael.adm.br"
         }
-      }
+      })
     }
   end
   describe :cobregratis_token do
-    it { parser.cobregratis_token.should == "handshake" }
+    it { expect(parser.cobregratis_token).to eq("handshake") }
   end
 end
