@@ -6,7 +6,7 @@ Esse é o código usado no middleware de integração do Cobre Grátis com o Wuf
 O [Cobre Grátis] [cg] é um sistema de emissão e gerenciamento de boletos bancários.
 O [Wufoo] [wufoo] é um sistema de criação de formulários.
 
-É necessário ter contratado o Plano Premium do [Cobre Grátis] [cg].
+É necessário ter contratado o Plano Pago do [Cobre Grátis] [cg].
 
 Para usufruir da integração, não é necessário usar este código de programação. Basta usar o serviço hospedado.
 
@@ -41,8 +41,8 @@ Após criar o formulário, é necessário cadastrar uma Notificação:
 * Acesse o Notification Settings do formulário criado;
 * Selecione **WebHook** na área de inclusão de nova notificação;
 * Clique em Add Integration;
-* Em _Your WebHook URL_ coloque o endereço: **http://wufoo.cobregratis.com.br/IDSERVICO/IDCONTA** onde IDSERVICO é o ID do Serviço e o IDCONTA é o ID da Conta do Cobre Grátis;<br>
-Para pegar o ID do Serviço e o ID da Conta, acesse a [página Integração do Cobre Grátis] [integration]
+* Em _Your WebHook URL_ coloque o endereço: **http://wufoo.cobregratis.com.br/IDMODELO/IDCONTA** onde IDMODELO é o ID do Modelo e o IDCONTA é o ID da Conta de Cobrança no Cobre Grátis;<br>
+Para pegar o ID do Modelo e o ID da Conta de Cobrança, acesse a [página Integração do Cobre Grátis] [integration]
 * Em _Your WebHook Handshake Key_ coloque o Token de Autenticação do seu usuário no Cobre Grátis;<br>
 Para pegar o Token de Autenticação do seu usuário, acesse a [página Meu Perfil do Cobre Grátis] [myinfo]
 * Marque a opção: _Include Field and Form Structures with Entry Data_;
