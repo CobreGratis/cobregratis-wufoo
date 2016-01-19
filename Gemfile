@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.2.4'
 
 gem 'thin', '1.6.4'
 gem 'sinatra', '1.4.6'
@@ -14,8 +14,8 @@ group :development do
 end
 
 group :test do
-  gem 'rspec', '3.3.0'
+  gem 'rspec', '3.4.0'
   gem 'rack-test', '0.6.3'
-  gem 'webmock', '1.22.1'
-  gem 'vcr', '2.9.3'
+  gem 'webmock', '1.22.6'
+  gem 'vcr', '3.0.1'
 end
