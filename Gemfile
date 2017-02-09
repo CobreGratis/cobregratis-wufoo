@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 ruby '2.2.4'
 
 gem 'thin', '1.6.4'
-gem 'sinatra', '1.4.6'
+gem 'sinatra', '1.4.8'
 gem 'cobregratis', '0.4.4'
-gem 'maruku', '0.7.2'
+gem 'maruku', '0.7.3'
 gem 'haml', '4.0.7'
 gem 'rack-canonical-host', '0.1.0'
 
