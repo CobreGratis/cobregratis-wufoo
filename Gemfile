@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 ruby '2.2.4'
 
 gem 'thin', '1.6.4'
@@ -11,6 +10,7 @@ gem 'rack-canonical-host', '0.1.0'
 
 group :development do
   gem 'shotgun', '0.9.1'
+	gem 'dokku-cli'
 end
 
 group :test do
